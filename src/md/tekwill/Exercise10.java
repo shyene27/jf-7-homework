@@ -12,5 +12,14 @@ public class Exercise10 {
 	  'Variable value starts with Alexei'
 	  'Variable value doesn't end with Ion'
 	  */
+
+        String search1 = "Alexei";
+        String search2 = "Ion";
+        int i = names.indexOf(search1);
+        int j = names.indexOf(search2);
+
+        if (i==0) System.out.println("Variable value starts with Alexei");
+
+        if (j!=(names.length()-search2.length())) System.out.println("Variable value doesn't end with Ion");
     }
 }

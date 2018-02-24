@@ -1,5 +1,7 @@
 package md.tekwill;
 
+//import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
+
 public class Exercise12 {
 
     public static void main(String[] args) {
@@ -10,5 +12,7 @@ public class Exercise12 {
        * would help you print the string in reverse order.
        * Output: "dalV,eilatiV,rotciV,uigreS,iehgreS,aelO,acuL,anaJ,neguE,ierdnA,iexelA"
        * */
+        String sb = new StringBuilder(names).reverse().toString();
+        System.out.println(sb);
     }
 }

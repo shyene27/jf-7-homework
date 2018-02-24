@@ -10,5 +10,8 @@ public class Exercise3 {
 
 	  Perform the replacement and print the result.
 	  */
+
+	 String bbb = abracadabra.replaceAll("a", "A");
+        System.out.println(bbb);
     }
 }

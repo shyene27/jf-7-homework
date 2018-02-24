@@ -10,5 +10,8 @@ public class Exercise4 {
 
 	  Perform the replacement and print the result.
 	  */
+
+        String bbb = abracadabra.replaceFirst("r", "R");
+        System.out.println(bbb);
     }
 }

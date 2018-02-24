@@ -13,5 +13,11 @@ public class Exercise11 {
        *
        * Output: "Alexei,Andrei,Eugen,Jana,Luca,Olea,Serghei,Sergiu,Victor,Vitalie,Vlad"
        * */
+
+        StringBuilder sb = new StringBuilder();
+        for (String name:names){
+            sb.append(name+",");
+        }
+        System.out.println(sb);
     }
 }

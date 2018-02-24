@@ -11,5 +11,11 @@ public class Exercise6 {
 	  Then find another method that would help you print the string from that position till the end.
 	  Expected output: "Eugen,Jana,Luca,Olea,Serghei,Sergiu,Victor,Vitalie,Vlad"
 	  */
+	 String search = "Eugen";
+	 int z = search.length();
+	 int i = names.indexOf(search);
+
+	 System.out.println("The position of " + search + " is starting from "+ i + " to "+ (i+z-1));
+     System.out.println(names.substring(i));
     }
 }

@@ -11,5 +11,16 @@ public class Exercise9 {
 	  'Ion is not part of the names variable'
 	  'Jana is part of the names variable'
 	  */
+
+        String search1 = "Ion";
+        String search2 = "Jana";
+        int i = names.indexOf(search1);
+        int j = names.indexOf(search2);
+
+        if (i==-1) System.out.println("Ion is not part of the names variable");
+        else System.out.println("Ion is part of the names variable");
+
+        if (j==-1) System.out.println("Jana is not part of the names variable");
+        else System.out.println("Jana is part of the names variable");
     }
 }
